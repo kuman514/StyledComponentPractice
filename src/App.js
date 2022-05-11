@@ -5,6 +5,7 @@ import AdaptingBasedOnProps from './StyledComponents/AdaptingBasedOnProps';
 import ExtendingStyle from './StyledComponents/ExtendingStyle';
 import StylingAnyComponent from './StyledComponents/StylingAnyComponent';
 import PassedProps from './StyledComponents/PassedProps';
+import StyledCounter from './StyledComponents/StyledCounter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ExtendingStyle></ExtendingStyle>
         <StylingAnyComponent></StylingAnyComponent>
         <PassedProps></PassedProps>
+        <StyledCounter></StyledCounter>
       </header>
     </div>
   );
