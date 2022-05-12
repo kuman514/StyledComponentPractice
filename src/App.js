@@ -6,6 +6,7 @@ import ExtendingStyle from './StyledComponents/ExtendingStyle';
 import StylingAnyComponent from './StyledComponents/StylingAnyComponent';
 import PassedProps from './StyledComponents/PassedProps';
 import StyledCounter from './StyledComponents/StyledCounter';
+import RotatingLetter from './StyledComponents/RotatingLetter';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <StylingAnyComponent></StylingAnyComponent>
         <PassedProps></PassedProps>
         <StyledCounter></StyledCounter>
+        <RotatingLetter></RotatingLetter>
       </header>
     </div>
   );
